@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+.sticky-btn{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	transform: translateX(50%) rotate(-90deg) translateY(-50%);
+	-ms-transform: translateX(50%) rotate(-90deg) translateY(-50%);
+	-webkit-transform: translateX(50%) rotate(-90deg) translateY(-50%);
+	z-index: 9999;
+}
+.sticky-btn .btn{
+	padding: 15px 30px;
+	color: #fff;
+	margin-right: 25px;
+	display: inline-block;
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 5px 5px 0 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>sticky</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.css</scope> 
+</snippet>

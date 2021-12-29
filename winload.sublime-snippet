@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+jQuery(window).load(function () {
+    
+    jQuery(".loading").hide();
+
+    jQuery(function(){
+		jQuery('.bg-frame').parallaxBlock({
+			parallaxOffset: -50,
+			fallbackClass: 'fallback-class'
+		});
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>winload</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

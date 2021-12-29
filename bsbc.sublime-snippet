@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Library</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data</li>
+  </ol>
+</nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>bsbc</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.html</scope> 
+</snippet>

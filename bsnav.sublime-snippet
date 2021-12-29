@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+					<a class="navbar-brand" href="#">Navbar</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto nav" id="nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="product.html">PRODUCTS</a>
+								<ul>
+									<li><a href="#"> Club Services</a></li>
+									<li><a href="#">Membership</a></li>
+									<li><a href="#">Community</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">SERVICE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="distribution.html">GLOBAL DISTRIBUTION</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="contact.html">CONTACT US </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html">ABOUT US</a>
+							</li>
+						</ul>
+					</div>
+					<form action="#" class="search-form" method="post">
+						<a href="javascript:void(0)" class="search-opner"><i class="fa fa-search"></i></a>
+						<div class="field">
+							<input placeholder="search" class="input" type="search">
+							<button type="submit"><i class="fa fa-search"></i></button>
+						</div>
+					</form>
+				</nav>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>bsnav</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.html</scope> 
+</snippet>

@@ -1,0 +1,30 @@
+[
+	{ "keys": ["ctrl+alt+f12"], "command": "reindent" },
+	{ "keys": ["alt+shift+p"], "command": "insert_snippet", "args": {"file": "Packages/User/ptag.sublime-snippet"}},
+	{
+		"keys": ["ctrl+alt+["],
+		"command": "css_format",
+		"args": {
+			"action": "expand-bs"
+		}
+	},
+	{
+	    "keys": ["ctrl+e"],
+	    "command": "emmet_expand_abbreviation"
+	},
+	{
+		"keys": ["ctrl+alt+]"],
+		"command": "css_format",
+		"args": {
+			"action": "compact-ns"
+		}
+	},
+	 { "keys": ["ctrl+alt+k"], "command": "spell_check" },
+	{ "keys": ["alt+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
+    {
+        "caption": "Emmet: Wrap with Abbreviation",
+        "command": "emmet_wrap_with_abbreviation",
+          "keys": ["ctrl+shift+g"]
+    },
+	{ "keys": ["ctrl+q"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}}
+]

@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+/*--Slideshow--*/
+.slideshow{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.slideshow .slideset{
+	position: relative;
+}
+.slideshow .slide{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+.slideshow .slide>img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.slideshow .slide.active{
+	z-index: 2;
+}
+@media screen and (max-width:1399px){
+	.slideshow .slide > img{
+		max-width: inherit;
+		width: 130%;
+		margin: 0 -15%;
+	}
+}
+@media screen and (max-width:767px){
+	/*--Slideshow--*/
+	.slideshow .slide > img{
+		width: 150%;
+		margin: 0 -25%;
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>slideshow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.css</scope> 
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+.userway_icon_image_wrapper{width:57px;height:57px;background:url(../images/accessibility.png);-webkit-background-size:cover;background-size:cover;display:block;}
+.userway_icon_image_wrapper img{display:none!important;}
+@media screen and (max-width:767px){
+	.userway_icon_image_wrapper{width: 37px;height: 37px;}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>userway</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

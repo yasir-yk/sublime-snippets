@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<div> 
+	<!-- Nav tabs -->
+	<ul class="nav nav-tabs" role="tablist">
+		<li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab">Home</a></li>
+		<li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">Profile</a></li>
+		<li role="presentation"><a href="#tab3" role="tab" data-toggle="tab">Messages</a></li>
+		<li role="presentation"><a href="#tab4" role="tab" data-toggle="tab">Settings</a></li>
+	</ul>
+	<!-- Tab panes -->
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="tab1">...</div>
+		<div role="tabpanel" class="tab-pane" id="tab2">...</div>
+		<div role="tabpanel" class="tab-pane" id="tab3">...</div>
+		<div role="tabpanel" class="tab-pane" id="tab4">...</div>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>bstab</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.html</scope>
+</snippet>

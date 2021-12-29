@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<?php 
+	@link = get_sub_field('slide_link');
+	@image = get_sub_field('slide_image');
+	@mobile = 'medium';
+	@tablet = 'large';
+	@full = 'full';
+?>
+<picture>
+	<source srcset="<?php echo wp_get_attachment_image_url (@image['ID'], @mobile); ?>" media="(max-width: 767px)">
+	<source srcset="<?php echo wp_get_attachment_image_url (@image['ID'], @tablet); ?>" media="(max-width: 1024px)">
+	<source srcset="<?php echo wp_get_attachment_image_url (@image['ID'], @size); ?>">
+	<img src="<?php echo wp_get_attachment_image_url (@image['ID'], @full); ?>" alt="image description">
+</picture>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>wp-img</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>text.html</scope> 
+</snippet>
